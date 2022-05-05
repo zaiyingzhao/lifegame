@@ -3,9 +3,7 @@
 
 ## mylife1.c
 
-my_init_cells, my_print_cells, my_update_cells, my_count_adjacent_cells(my_update_cellsに必要)を実装した上でsrand()関数を用いて引数がないときの初期配置を乱数で決定できるようにしました。  
-srandの種を時間によって変化するようにしたので実行するたびに初期位置が変わります。  
-生存セルの割合が10％程度という制約は 0 <= rand() / RAND_MAX <= 1 という性質を用いて定義しました。
+初期配置を乱数で決定できるようにした上でlifegameを実装しました。
 
 ## mylife2.c
 
